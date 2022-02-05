@@ -15,7 +15,7 @@ let fakeDuration = 600;
 outline.style.strokeDasharray = outlineLength;
 outline.style.strokeDashoffset = outlineLength;
 
-get different sound
+//get different sound
 sounds.forEach(sound =>{
     sound.addEventListener("click", function(){
         song.src = this.getAttribute("data-sound");
